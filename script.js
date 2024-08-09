@@ -20,7 +20,9 @@ function getComputerChoice() {
 function getHumanChoice() {
     let humanChoice = prompt('What is your choice?', 'Rock paper or scissors');
     humanChoice = humanChoice.toLowerCase();
-    
+
     return humanChoice;
 }
 
+let humanScore = 0;
+let computerScore = 0;
