@@ -1,6 +1,7 @@
 function getComputerChoice() {
     // Returns the computer choice amongst rock paper or scissor
-    let randomChoice = Math.floor(Math.random()*3);
+
+    let randomChoice = Math.floor(Math.random()*3); // assigns 0, 1 or 2
     let computerChoice = '';
 
     if (randomChoice === 0) {
@@ -16,3 +17,10 @@ function getComputerChoice() {
 
     return computerChoice;
 }
+
+function getHumanChoice() {
+    let humanChoice = prompt('What is your choice?', 'Rock paper or scissors');
+    humanChoice = humanChoice.toLowerCase();
+    return humanChoice;
+}
+
