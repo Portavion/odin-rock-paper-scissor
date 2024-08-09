@@ -14,13 +14,13 @@ function getComputerChoice() {
         computerChoice = 'scissors'
     }
 
-
     return computerChoice;
 }
 
 function getHumanChoice() {
     let humanChoice = prompt('What is your choice?', 'Rock paper or scissors');
     humanChoice = humanChoice.toLowerCase();
+    
     return humanChoice;
 }
 
